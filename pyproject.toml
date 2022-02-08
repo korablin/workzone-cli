@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "workzone"
+version = "0.1.0"
+description = ""
+authors = ["Nikolai Korablin <nkorabli@cisco.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6.2"
+click = "8.0.3"
+tenacity = "8.0.1"
+requests = "2.26.0"
+
+[tool.poetry.dev-dependencies]
+black = "21.9b0"
+isort = "5.9.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+default = true
+[[tool.poetry.source]]
+name = "Ciscolabs CI pypi"
+url = "https://pypi.ci.ciscolabs.com/root/pypi/+simple"
+default = true
