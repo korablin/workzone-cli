@@ -65,7 +65,7 @@ Commands:
   remove-merge-criteria     # Deletes merge critria completely
   remove-reviewers          # Deletes all the reviewers: groups and individual ones
   set-merge-criteria        # Replaces or sets a new merge criteria
-  set-reviewers             # Sets reviewers and/or reviewer-group, removes those that were passed
+  set-reviewers             # Sets reviewers and/or reviewer-group, removes those that were not passed
                             # but were already configured
 ```
 
